@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ol,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #ffff;
+}
+
+.main {
+  max-width: 960px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #535252;
+  position: relative;
+}
+
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 16px;
+  }
+}
